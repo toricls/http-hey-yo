@@ -49,6 +49,13 @@ The default value is `200`. Set this value to change the HTTP response status co
 
 The default value is `8080`. Set this value to change the listen port of http-hey-yo.
 
+## Build your own Hey-Yo container
+
+```shell
+$ docker build -t YOUR-NAME/http-hey-yo .
+$ docker push YOUR-NAME/http-hey-yo
+```
+
 ## Contribution
 
 1. Fork ([https://github.com/toricls/http-hey-yo/fork](https://github.com/toricls/http-hey-yo/fork))
