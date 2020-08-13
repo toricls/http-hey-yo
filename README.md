@@ -25,7 +25,7 @@ then, you'll see a simple HTTP server launched.
 
 ```
 
-Let's curl to it.
+Let's curl it.
 
 ```shell
 $ curl -i http://localhost:1500
@@ -47,7 +47,14 @@ The default value is `200`. Set this value to change the HTTP response status co
 
 ### 2. `LISTEN_PORT`
 
-The default value is `8080`. Set this value to change the listen port of http-hey-yo.
+The default value is `8080`. Set this value to change the listen port number of http-hey-yo.
+
+## Build your own Hey-Yo container
+
+```shell
+$ docker build -t YOUR-NAME/http-hey-yo .
+$ docker push YOUR-NAME/http-hey-yo
+```
 
 ## Contribution
 
