@@ -16,7 +16,7 @@ $ docker run -p 1500:1500 \
   public.ecr.aws/toricls/http-hey-yo:latest
 ```
 
-then, you'll see a simple HTTP server launched.
+then, you'll see a simple HTTP server running.
 
 ```shell
 2020-08-13T09:11:22+0000 RESPONSE_HTTP_STATUS_CODE: 503
