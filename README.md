@@ -13,7 +13,7 @@ Returns any HTTP status code you want, as a simple http server
 $ docker run -p 1500:1500 \
   -e RESPONSE_HTTP_STATUS_CODE=503 \
   -e LISTEN_PORT=1500 \
-  toricls/http-hey-yo
+  public.ecr.aws/toricls/http-hey-yo:latest
 ```
 
 then, you'll see a simple HTTP server launched.
